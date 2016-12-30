@@ -1,0 +1,21 @@
+{
+  "name": "image-search",
+  "version": "1.0.0",
+  "description": "Image Search Abstraction Layer for FCC",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "Tyler Collins",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "flickrapi": "^0.6.0",
+    "mongoose": "^4.7.5",
+    "validator": "^6.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
